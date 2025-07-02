@@ -117,14 +117,14 @@
   padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
-  border: 1px solid #ddd;
+
  
-  max-width: 22rem;
+ 
     min-height: 250px;
     border: 1px solid #e5e7eb;
+    
     flex: 1;
-    flex: 1;
-  max-width: none;  /* Remove this to allow equal width */
+  max-width: none;  
   width: auto;   
 }
 

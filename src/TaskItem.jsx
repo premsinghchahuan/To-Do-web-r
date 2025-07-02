@@ -8,19 +8,19 @@ function TaskItem({ task, index, onEdit, onDelete, onStatusChange }) {
         if (status === "todo") {
             return (
                 <button className="to-do-btn" onClick={() => onStatusChange(index, "in-progress")}>
-                <i class="bi bi-fast-forward-circle-fill"></i>
+                <i className="bi bi-fast-forward-circle-fill"></i>
                 </button>
             );
         } else if (status === "in-progress") {
             return (
                 <button className="in-progresh-btn" onClick={() => onStatusChange(index, "completed")}>
-                 <i class="bi bi-check2-circle"></i>
+                 <i className="bi bi-check2-circle"></i>
                 </button>
             );
         } else {
             return (
                 <button className="completed-btn" onClick={() => onStatusChange(index, "todo")}>
-                    <i class="bi bi-arrow-repeat"></i>
+                    <i className="bi bi-arrow-repeat"></i>
                 </button>
             );
         }
@@ -37,7 +37,7 @@ function TaskItem({ task, index, onEdit, onDelete, onStatusChange }) {
                 {status !== "completed" && (
                     <button className="edit-btn" onClick={() => onEdit(index)}> <i className="bi bi-pencil-fill" /></button>
                 )}
-                <button className="delete-btn" onClick={() => onDelete(index)}><i class="bi bi-trash-fill"></i></button>
+                <button className="delete-btn" onClick={() => onDelete(index)}><i className="bi bi-trash-fill"></i></button>
             </div>
         </li>
     );
