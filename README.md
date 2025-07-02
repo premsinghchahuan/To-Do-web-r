@@ -1,3 +1,10 @@
+# To-Do-web-r
+A responsive To-Do Task Board web app built with React and Vite. Organize your tasks into "To Do", "In Progress", and "Completed" columns with edit, delete, and status-changing features. Styled with Bootstrap and custom CSS.
+
+Resources
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
